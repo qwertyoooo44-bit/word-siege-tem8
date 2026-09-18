@@ -164,8 +164,9 @@ export async function homeStats(at = Date.now()) {
   await db.words.bulkPut(records)
   const c = counts(records, at)
   const due = dueReviews(records, at)
+  const errors = records.filter((record) => record.status === 'siege')
   const today = await db.daily.get(dateKey(at))
-  return { ...c, dueList: due, todayMastered: today?.wordsMastered ?? 0 }
+  return { ...c, dueList: due, errorList: errors, todayMastered: today?.wordsMastered ?? 0 }
 }
 
 export function migrateLocalStorage(raw: string | null): PersistV2 | null {

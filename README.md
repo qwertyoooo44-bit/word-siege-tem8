@@ -35,6 +35,8 @@ pnpm preview
 
 学习记录保存在本机。请定期导出 JSON。清理 Safari 网站数据会丢失进度。
 
+当前公开 Pages 仍是稳定版 `493591b`。v2 升级在 `feature/v2-game-learning`，验收通过前不覆盖线上。
+
 ## 不包含
 
 没有账号、广告、支付、云同步和后端。未使用未授权的完整 SQLite 词典。

@@ -1,12 +1,14 @@
 :root {
-  --bg: #0e1218;
-  --panel: #1a2230;
+  --bg: #0b1c2e;
+  --panel: #13263c;
   --text: #e8eef7;
   --muted: #9aa7bb;
-  --line: #2c3648;
+  --line: #2c3d55;
   --accent: #7dffa6;
+  --cyan: #7ee0ff;
+  --gold: #e8d48b;
   --ok: #5ee090;
-  --bad: #ff6b6b;
+  --bad: #e0a45a;
   color: var(--text);
   background: var(--bg);
   font-family: ui-sans-serif, system-ui, -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif;

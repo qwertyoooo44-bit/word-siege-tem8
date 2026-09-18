@@ -19,6 +19,14 @@
 - fake-indexeddb: Apache-2.0 / MIT
 - @types/react, @types/react-dom, @types/node: MIT
 
+## 音频
+
+本应用键盘音效与结果音效由 `src/audio.ts` 使用 Web Audio API 程序化生成，无第三方采样。声音包：清脆、机械、词库、晶体。许可证：原创程序化音频。未使用 kbsim 采样，未复制 Thock WAV，未复制 Monkeytype 音频。
+
+## 开源参考
+
+见 `docs/OPEN_SOURCE_REVIEW.md`。未引入 simple-keyboard、Monkeytype、kbsim、Thock 依赖。
+
 ## 数据
 
 正式专八学习内容派生自 OpenEtymology 公开词书：

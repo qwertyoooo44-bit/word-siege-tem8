@@ -1,4 +1,4 @@
-const VERSION = 'word-siege-tem8-v2-rich'
+const VERSION = 'word-siege-tem8-v2-keyboard'
 const CORE = ['./', './index.html', './manifest.webmanifest']
 
 self.addEventListener('install', (event) => {
