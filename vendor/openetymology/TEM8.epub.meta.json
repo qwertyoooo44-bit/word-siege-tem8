@@ -1,0 +1,18 @@
+{
+  "repo": "https://github.com/openetymology/OpenEtymology",
+  "defaultBranch": "main",
+  "commitSha": "7d89f3697abf26e305fe2627f181b692c2c10b28",
+  "commitHtml": "https://github.com/openetymology/OpenEtymology/commit/7d89f3697abf26e305fe2627f181b692c2c10b28",
+  "dataLicensePath": "DATA_LICENSE.md",
+  "dataLicenseSha": "0f6b727a6654680384efbe2fa176de312d0b9373",
+  "epub": {
+    "path": "TEM8/TEM8.epub",
+    "dest": "D:\\AI-COMPANY-V2\\staging\\word-siege-tem8\\vendor\\openetymology\\TEM8.epub",
+    "apiSha": "59c2ed6b86e146b1025a7324d7b69fd26398998f",
+    "reportedSize": 1744752,
+    "bytes": 1744752,
+    "sha256": "0db749f72a59853712dcbd7b5120c3ae8ee465658fe0262e3ce569793c387c3e",
+    "downloadUrl": "https://raw.githubusercontent.com/openetymology/OpenEtymology/main/TEM8/TEM8.epub",
+    "htmlUrl": "https://github.com/openetymology/OpenEtymology/blob/main/TEM8/TEM8.epub"
+  }
+}

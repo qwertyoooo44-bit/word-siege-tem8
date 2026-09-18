@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid" xml:lang="zh-CN">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:f6178aa3-1b72-46ef-b874-26b2d3d81ec6</dc:identifier>
+    <dc:title>OpenEtymology TEM8 Word Book</dc:title>
+    <dc:creator>OpenEtymology</dc:creator>
+    <dc:language>zh-CN</dc:language>
+    <dc:description>TEM8 vocabulary book with definitions, morphemes, etymology notes, and examples.</dc:description>
+    <meta property="dcterms:modified">2026-05-24T10:39:39Z</meta>
+  </metadata>
+  <manifest>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav" />
+    <item id="styles" href="styles.css" media-type="text/css" />
+    <item id="cover" href="text/cover.xhtml" media-type="application/xhtml+xml" />
+    <item id="introduction" href="text/introduction.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-01" href="text/chapter-01.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-02" href="text/chapter-02.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-03" href="text/chapter-03.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-04" href="text/chapter-04.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-05" href="text/chapter-05.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-06" href="text/chapter-06.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-07" href="text/chapter-07.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-08" href="text/chapter-08.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-09" href="text/chapter-09.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-10" href="text/chapter-10.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-11" href="text/chapter-11.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-12" href="text/chapter-12.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-13" href="text/chapter-13.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-14" href="text/chapter-14.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-15" href="text/chapter-15.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-16" href="text/chapter-16.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-17" href="text/chapter-17.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-18" href="text/chapter-18.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-19" href="text/chapter-19.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-20" href="text/chapter-20.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-21" href="text/chapter-21.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-22" href="text/chapter-22.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-23" href="text/chapter-23.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-24" href="text/chapter-24.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-25" href="text/chapter-25.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-26" href="text/chapter-26.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-27" href="text/chapter-27.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-28" href="text/chapter-28.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-29" href="text/chapter-29.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-30" href="text/chapter-30.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-31" href="text/chapter-31.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-32" href="text/chapter-32.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-33" href="text/chapter-33.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-34" href="text/chapter-34.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-35" href="text/chapter-35.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-36" href="text/chapter-36.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-37" href="text/chapter-37.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-38" href="text/chapter-38.xhtml" media-type="application/xhtml+xml" />
+    <item id="chapter-39" href="text/chapter-39.xhtml" media-type="application/xhtml+xml" />
+  </manifest>
+  <spine>
+    <itemref idref="cover" />
+    <itemref idref="introduction" />
+    <itemref idref="chapter-01" />
+    <itemref idref="chapter-02" />
+    <itemref idref="chapter-03" />
+    <itemref idref="chapter-04" />
+    <itemref idref="chapter-05" />
+    <itemref idref="chapter-06" />
+    <itemref idref="chapter-07" />
+    <itemref idref="chapter-08" />
+    <itemref idref="chapter-09" />
+    <itemref idref="chapter-10" />
+    <itemref idref="chapter-11" />
+    <itemref idref="chapter-12" />
+    <itemref idref="chapter-13" />
+    <itemref idref="chapter-14" />
+    <itemref idref="chapter-15" />
+    <itemref idref="chapter-16" />
+    <itemref idref="chapter-17" />
+    <itemref idref="chapter-18" />
+    <itemref idref="chapter-19" />
+    <itemref idref="chapter-20" />
+    <itemref idref="chapter-21" />
+    <itemref idref="chapter-22" />
+    <itemref idref="chapter-23" />
+    <itemref idref="chapter-24" />
+    <itemref idref="chapter-25" />
+    <itemref idref="chapter-26" />
+    <itemref idref="chapter-27" />
+    <itemref idref="chapter-28" />
+    <itemref idref="chapter-29" />
+    <itemref idref="chapter-30" />
+    <itemref idref="chapter-31" />
+    <itemref idref="chapter-32" />
+    <itemref idref="chapter-33" />
+    <itemref idref="chapter-34" />
+    <itemref idref="chapter-35" />
+    <itemref idref="chapter-36" />
+    <itemref idref="chapter-37" />
+    <itemref idref="chapter-38" />
+    <itemref idref="chapter-39" />
+  </spine>
+</package>

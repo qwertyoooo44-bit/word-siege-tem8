@@ -1,0 +1,415 @@
+{
+  "sampled": [
+    {
+      "id": "tem8-0001",
+      "word": "abacus",
+      "ipa": "/ˈæbəkəs/",
+      "pos": "n.",
+      "gloss": "算盘",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0078",
+      "word": "affiliate",
+      "ipa": "/əˈfɪlieɪt/",
+      "pos": "v. n.",
+      "gloss": "使隶属；使紧密联系；附属机构；成员",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0156",
+      "word": "anonymity",
+      "ipa": "/ˌænəˈnɪməti/",
+      "pos": "n.",
+      "gloss": "匿名状态；无名性",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0236",
+      "word": "auctioneer",
+      "ipa": "/ˌɔːkʃəˈnɪr/ · /ˌɔːkʃəˈnɪə(r)/",
+      "pos": "n. vt.",
+      "gloss": "拍卖商；拍卖师；主持拍卖",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0313",
+      "word": "benign",
+      "ipa": "/bɪˈnaɪn/",
+      "pos": "adj.",
+      "gloss": "良性的（指疾病或肿瘤）；仁慈的，和善的",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0392",
+      "word": "buff",
+      "ipa": "/bʌf/",
+      "pos": "n. adj. vt.",
+      "gloss": "浅黄色软皮革；爱好者，狂热者（尤指电影、游戏等领域的）；浅黄色的；健美的，肌肉发",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0470",
+      "word": "centralise",
+      "ipa": "/ˈsentrəlaɪz/",
+      "pos": "vt.",
+      "gloss": "使集中；使成为中心",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0549",
+      "word": "colossal",
+      "ipa": "/kəˈlɑːs(ə)l/ · /kəˈlɒs(ə)l/",
+      "pos": "adj.",
+      "gloss": "巨大的，庞大的；（引申义）惊人的，非凡的",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0628",
+      "word": "corollary",
+      "ipa": "/ˈkɔːrəleri/ · /kəˈrɒləri/",
+      "pos": "n.",
+      "gloss": "必然结果；推论；（数学）系定理",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0705",
+      "word": "cynicism",
+      "ipa": "/ˈsɪnɪˌsɪzəm/ · /ˈsɪnɪsɪzəm/",
+      "pos": "n.",
+      "gloss": "愤世嫉俗，怀疑人性善良的倾向；（哲学）犬儒主义",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0783",
+      "word": "demean",
+      "ipa": "/dɪˈmiːn/",
+      "pos": "vt.",
+      "gloss": "贬低（某人或某事的尊严或地位）；（古义）使行为举止符合某种标准",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0859",
+      "word": "din",
+      "ipa": "/dɪn/",
+      "pos": "n.",
+      "gloss": "持续不断的嘈杂声；喧闹",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-0937",
+      "word": "doodle",
+      "ipa": "/ˈduːdl/",
+      "pos": "n. vi.",
+      "gloss": "涂鸦；信手画出的图画；心不在焉地乱涂乱画",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1017",
+      "word": "egalitarian",
+      "ipa": "/ɪˌɡælɪˈteriən/ · /ɪˌɡælɪˈteəriən/",
+      "pos": "adj. n.",
+      "gloss": "主张平等的，平等主义的；平等主义者",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1098",
+      "word": "entreat",
+      "ipa": "/ɪnˈtriːt/",
+      "pos": "vt. vi.",
+      "gloss": "恳求；乞求；提出请求；进行谈判",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1180",
+      "word": "exonerate",
+      "ipa": "/ɪɡˈzɑːnəreɪt/ · /ɪɡˈzɒnəreɪt/",
+      "pos": "vt.",
+      "gloss": "免除责任；证明无罪；（正式）免除（债务、义务等）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1262",
+      "word": "federalist",
+      "ipa": "/ˈfedərəlɪst/",
+      "pos": "n. adj.",
+      "gloss": "联邦主义者（支持联邦制或联邦政府权力的人）；联邦主义的（与联邦主义相关的）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1347",
+      "word": "flex",
+      "ipa": "/flɛks/",
+      "pos": "v. n.",
+      "gloss": "弯曲；灵活调整；弹性；灵活性（非正式用法）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1426",
+      "word": "forthwith",
+      "ipa": "/ˌfɔːrθˈwɪθ/ · /ˌfɔːθˈwɪθ/",
+      "pos": "adv.",
+      "gloss": "立即，毫不拖延地",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1504",
+      "word": "gearbox",
+      "ipa": "/ˈɡɪrbɑːks/ · /ˈɡɪəbɒks/",
+      "pos": "n.",
+      "gloss": "变速箱，齿轮箱",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1583",
+      "word": "hale",
+      "ipa": "/heɪl/",
+      "pos": "adj. vt.",
+      "gloss": "强壮的，健壮的（尤指老年人）；强迫，强拉（古用法或文学用语）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1667",
+      "word": "heartwarming",
+      "ipa": "/ˈhɑːrtˌwɔːrmɪŋ/ · /ˈhɑːtˌwɔːmɪŋ/",
+      "pos": "adj.",
+      "gloss": "暖心的，感人的",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1754",
+      "word": "holly",
+      "ipa": "/ˈhɑːli/ · /ˈhɒli/",
+      "pos": "n.",
+      "gloss": "冬青（常绿灌木，叶带刺，果实红色）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1840",
+      "word": "hyperactive",
+      "ipa": "/ˌhaɪpərˈæktɪv/",
+      "pos": "adj.",
+      "gloss": "过度活跃的（尤指行为或生理活动超出正常水平）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1917",
+      "word": "inanimate",
+      "ipa": "/ɪnˈænəmət/ · /ɪnˈænɪmət/",
+      "pos": "adj.",
+      "gloss": "无生命的；无生气的；单调的，缺乏活力的",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-1995",
+      "word": "inflammable",
+      "ipa": "/ɪnˈflæməbl/",
+      "pos": "adj.",
+      "gloss": "易燃的；易激动的，易怒的",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2072",
+      "word": "intoxicate",
+      "ipa": "/ɪnˈtɑːksɪkeɪt/ · /ɪnˈtɒksɪkeɪt/",
+      "pos": "vt.",
+      "gloss": "使中毒；使陶醉；（引申义）使极度兴奋或失去理智",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2153",
+      "word": "jurisdiction",
+      "ipa": "/ˌdʒʊrɪsˈdɪkʃən/ · /ˌdʒʊərɪsˈdɪkʃən/",
+      "pos": "n.",
+      "gloss": "司法权；管辖权；管辖区域",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2233",
+      "word": "loin",
+      "ipa": "/lɔɪn/",
+      "pos": "n.",
+      "gloss": "（动物的）腰肉；腰部",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2311",
+      "word": "manslaughter",
+      "ipa": "/ˈmænˌslɔtər/ · /ˈmænˌslɔːtə/",
+      "pos": "n.",
+      "gloss": "过失杀人（非预谋的非法杀人行为）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2389",
+      "word": "militiaman",
+      "ipa": "/məˈlɪʃəmən/ · /mɪˈlɪʃəmən/",
+      "pos": "n.",
+      "gloss": "民兵（指个体成员）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2469",
+      "word": "mystic",
+      "ipa": "/ˈmɪstɪk/",
+      "pos": "n. adj.",
+      "gloss": "神秘主义者；修行者；神秘的；玄妙的",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2546",
+      "word": "oboe",
+      "ipa": "/ˈoʊboʊ/ · /ˈəʊbəʊ/",
+      "pos": "n.",
+      "gloss": "双簧管",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2622",
+      "word": "overview",
+      "ipa": "/ˈoʊvərvjuː/ · /ˈəʊvəvjuː/",
+      "pos": "n. vt.",
+      "gloss": "概览；综述；概述；纵览",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2698",
+      "word": "peppermint",
+      "ipa": "/ˈpepərmɪnt/ · /ˈpepəmɪnt/",
+      "pos": "n.",
+      "gloss": "胡椒薄荷（一种薄荷属植物，常用于调味或药用）；薄荷味（尤指糖果、口香糖等的味道）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2774",
+      "word": "poignant",
+      "ipa": "/ˈpɔɪnjənt/",
+      "pos": "adj.",
+      "gloss": "令人痛苦的；尖锐的（情感或感官上）；深刻的；切中要害的（比喻意义）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2854",
+      "word": "protrude",
+      "ipa": "/proʊˈtruːd/ · /prəˈtruːd/",
+      "pos": "vi. vt.",
+      "gloss": "伸出，突出；使突出，使伸出",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-2931",
+      "word": "ranger",
+      "ipa": "/ˈreɪndʒər/ · /ˈreɪndʒə(r)/",
+      "pos": "n.",
+      "gloss": "护林员；巡逻队员；（军事）突击队员",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3011",
+      "word": "remnant",
+      "ipa": "/ˈremnənt/",
+      "pos": "n.",
+      "gloss": "剩余物；残余部分；（布料、木材等的）零料，边角料",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3088",
+      "word": "revert",
+      "ipa": "/rɪˈvɜːrt/ · /rɪˈvɜːt/",
+      "pos": "vi. vt.",
+      "gloss": "恢复（原状）；回归（原状态或习惯）；使复原；【法律】归还（财产）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3168",
+      "word": "salivate",
+      "ipa": "/ˈsælɪveɪt/",
+      "pos": "vi.",
+      "gloss": "分泌过多唾液，流口水；（比喻）极度渴望，垂涎",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3247",
+      "word": "segregation",
+      "ipa": "/ˌseɡrɪˈɡeɪʃn/",
+      "pos": "n.",
+      "gloss": "隔离；种族隔离；（化学、生物等领域的）分离",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3328",
+      "word": "signet",
+      "ipa": "/ˈsɪɡnɪt/",
+      "pos": "n.",
+      "gloss": "图章；印章；用于在文件或信件上盖印的小型印章",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3407",
+      "word": "sparingly",
+      "ipa": "/ˈsperɪŋli/ · /ˈspeərɪŋli/",
+      "pos": "adv.",
+      "gloss": "节约地；谨慎地；少量地",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3484",
+      "word": "stratum",
+      "ipa": "/ˈstreɪtəm/ · /ˈstrɑːtəm/",
+      "pos": "n.",
+      "gloss": "地层；社会阶层",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3562",
+      "word": "syphilis",
+      "ipa": "/ˈsɪfəlɪs/ · /ˈsɪfɪlɪs/",
+      "pos": "n.",
+      "gloss": "梅毒（一种性传播疾病）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3644",
+      "word": "tiara",
+      "ipa": "/tiˈærə/ · /tiˈɑːrə/",
+      "pos": "n.",
+      "gloss": "冠状头饰；教皇的三重冕",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3722",
+      "word": "turning",
+      "ipa": "/ˈtɜːrnɪŋ/ · /ˈtɜːnɪŋ/",
+      "pos": "n.",
+      "gloss": "转弯处；转向；旋转；（金属或木材的）车削工艺",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3801",
+      "word": "unwieldy",
+      "ipa": "/ʌnˈwiːldi/",
+      "pos": "adj.",
+      "gloss": "笨重的，难以操作的（因体积、重量或形状）；笨拙的，不灵活的（比喻用法）",
+      "exampleHasWord": true
+    },
+    {
+      "id": "tem8-3880",
+      "word": "villainous",
+      "ipa": "/ˈvɪlənəs/",
+      "pos": "adj.",
+      "gloss": "邪恶的；恶毒的；罪大恶极的",
+      "exampleHasWord": true
+    }
+  ],
+  "issues": [
+    {
+      "id": "tem8-0003",
+      "word": "abate",
+      "issue": "example_missing_word",
+      "example": "The storm abated by dawn."
+    }
+  ],
+  "hyphenCount": 30,
+  "apostropheCount": 0,
+  "missingPos": []
+}

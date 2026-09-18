@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="专八单词攻坚">
+  <rect width="512" height="512" rx="96" fill="#0e1218"/>
+  <rect x="64" y="96" width="384" height="320" rx="40" fill="#1a2230"/>
+  <path d="M128 140 L176 300 L224 180 L256 300 L304 180 L352 300 L384 140" fill="none" stroke="#e8eef7" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="120" y="340" width="272" height="44" rx="12" fill="#7dffa6"/>
+</svg>
