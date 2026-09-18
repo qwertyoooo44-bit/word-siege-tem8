@@ -1,9 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { PACK_META, WORDS, displayIpa } from './pack'
+import { PACK_META, WORDS, displayIpa, officialPackLoaded } from './pack'
 
 describe('official TEM8 pack', () => {
   it('keeps lemma count separate from learnable siege queue', () => {
     expect(PACK_META.lemmaCount).toBe(3984)
+    expect(officialPackLoaded()).toBe(true)
     expect(WORDS).toHaveLength(PACK_META.learnableCount)
     expect(PACK_META.learnableCount).toBe(3826)
     expect(PACK_META.incompleteCount).toBe(158)

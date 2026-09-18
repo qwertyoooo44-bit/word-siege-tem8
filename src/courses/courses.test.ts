@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { WORDS } from '../data/pack'
 import { SAMPLE_PACK, SAMPLE_WORD_IDS, TEM8_PACK, wordIdsForPack } from '../packs/catalog'
 import { parseCourseTable } from './parse'
-import { firstCourseCatalogIndex, nextCourseCatalogIndex } from './queue'
+import { courseProgress, firstCourseCatalogIndex, masteredWordIds, nextCourseCatalogIndex } from './queue'
 
 describe('course packs', () => {
   it('keeps TEM8 as the only full learnable pack and sample as architecture check', () => {
@@ -24,5 +24,14 @@ describe('course packs', () => {
     const parsed = parseCourseTable('word\nabacus\nnot-a-real-lexeme\nabacus\n')
     expect(parsed.wordIds).toEqual([WORDS[0].id])
     expect(parsed.unknown).toContain('not-a-real-lexeme')
+  })
+
+  it('counts course mastery by stable wordId rather than learnIndex', () => {
+    const ids = [WORDS[0].id, WORDS[5].id, WORDS[8].id]
+    const mastered = masteredWordIds([
+      { wordId: WORDS[5].id, word: WORDS[5].word, status: 'mastered', reviewKind: 1, nextReviewAt: 1, masteredAt: 1, longMasteredAt: null },
+      { wordId: WORDS[0].id, word: WORDS[0].word, status: 'new', reviewKind: null, nextReviewAt: null, masteredAt: null, longMasteredAt: null },
+    ])
+    expect(courseProgress(ids, mastered)).toEqual({ done: 1, total: 3 })
   })
 })

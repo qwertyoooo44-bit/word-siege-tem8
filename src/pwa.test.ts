@@ -14,6 +14,7 @@ describe('pwa assets', () => {
     const sw = readFileSync('public/sw.js', 'utf8')
     expect(sw).toContain('caches.open')
     expect(sw).toContain('SKIP_WAITING')
-    expect(sw).toContain('word-siege-tem8-v2-keyboard')
+    expect(sw).toContain('word-siege-tem8-v2-packs')
+    expect(readFileSync('public/packs/tem8.json', 'utf8').length).toBeGreaterThan(1_000_000)
   })
 })

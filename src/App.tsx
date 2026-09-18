@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
-import { PACK_META } from './data/pack'
+import { PACK_META, loadOfficialPack } from './data/pack'
 import {
   accuracy,
   blockPaste,
@@ -112,6 +112,7 @@ export default function App() {
   const [errorList, setErrorList] = useState<WordRecord[]>([])
   const [longCount, setLongCount] = useState(0)
   const [todayMastered, setTodayMastered] = useState(0)
+  const [masteredIds, setMasteredIds] = useState<Set<string>>(() => new Set())
   const [backupMsg, setBackupMsg] = useState('')
   const [settings, setSettings] = useState<AppSettings>(() => loadSettings())
   const [query, setQuery] = useState('')
@@ -162,6 +163,7 @@ export default function App() {
 
   useEffect(() => {
     void (async () => {
+      await loadOfficialPack()
       const idb = await loadCurrent()
       if (idb) {
         setState(idb)
@@ -178,6 +180,7 @@ export default function App() {
       setDueCount(stats.due)
       setDueList(stats.dueList)
       setErrorList(stats.errorList)
+      setMasteredIds(stats.masteredIds)
       setLongCount(stats.long)
       setTodayMastered(stats.todayMastered)
       const custom = await listCustomCourses()
@@ -213,9 +216,6 @@ export default function App() {
       : activeCourse?.mode === 'errors'
         ? errorList.map((item) => item.wordId)
         : activeCourse?.wordIds ?? TEST_WORDS.map((item) => item.id)
-  const masteredIds = new Set(
-    TEST_WORDS.filter((_, index) => index < state.learnIndex || (state.mode === 'learn' && index === state.wordIndex && state.stage === 'mastered')).map((item) => item.id),
-  )
   const progress = courseProgress(courseWordIds, masteredIds)
 
   function jumpToCatalogIndex(index: number, review = false) {
@@ -278,6 +278,7 @@ export default function App() {
             setDueCount(stats.due)
             setDueList(stats.dueList)
             setErrorList(stats.errorList)
+            setMasteredIds(stats.masteredIds)
             setLongCount(stats.long)
             setTodayMastered(stats.todayMastered)
           }),
@@ -629,6 +630,7 @@ export default function App() {
                 setDueCount(stats.due)
                 setDueList(stats.dueList)
                 setErrorList(stats.errorList)
+                setMasteredIds(stats.masteredIds)
                 setLongCount(stats.long)
                 setTodayMastered(stats.todayMastered)
                 setBackupMsg('本地学习数据已清除。')
@@ -678,6 +680,7 @@ export default function App() {
                     setDueCount(stats.due)
                     setDueList(stats.dueList)
                     setErrorList(stats.errorList)
+                    setMasteredIds(stats.masteredIds)
                     setLongCount(stats.long)
                     setTodayMastered(stats.todayMastered)
                     setBackupMsg('导入成功。')

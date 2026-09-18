@@ -1,8 +1,5 @@
-import { WORDS } from '../data/pack'
-
-export function catalogIndexById(wordId: string): number {
-  return WORDS.findIndex((word) => word.id === wordId)
-}
+import { catalogIndexById } from '../data/pack'
+import type { WordRecord } from '../review/schedule'
 
 export function nextCourseCatalogIndex(wordIds: string[], currentWordId: string): number | null {
   const current = wordIds.indexOf(currentWordId)
@@ -26,4 +23,12 @@ export function courseProgress(wordIds: string[], masteredIds: Set<string>): { d
   const unique = Array.from(new Set(wordIds))
   const done = unique.filter((id) => masteredIds.has(id)).length
   return { done, total: unique.length }
+}
+
+export function masteredWordIds(records: WordRecord[]): Set<string> {
+  return new Set(
+    records
+      .filter((record) => record.status === 'mastered' || record.status === 'due' || record.status === 'long')
+      .map((record) => record.wordId),
+  )
 }

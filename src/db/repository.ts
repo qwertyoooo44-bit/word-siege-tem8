@@ -159,6 +159,14 @@ export async function clearLearningData(): Promise<void> {
   await ensureSeed()
 }
 
+export function masteredIdsFromRecords(records: WordRecord[]): Set<string> {
+  return new Set(
+    records
+      .filter((record) => record.status === 'mastered' || record.status === 'due' || record.status === 'long')
+      .map((record) => record.wordId),
+  )
+}
+
 export async function homeStats(at = Date.now()) {
   const records = markDue(await loadAllRecords(), at)
   await db.words.bulkPut(records)
@@ -166,7 +174,14 @@ export async function homeStats(at = Date.now()) {
   const due = dueReviews(records, at)
   const errors = records.filter((record) => record.status === 'siege')
   const today = await db.daily.get(dateKey(at))
-  return { ...c, dueList: due, errorList: errors, todayMastered: today?.wordsMastered ?? 0 }
+  return {
+    ...c,
+    dueList: due,
+    errorList: errors,
+    todayMastered: today?.wordsMastered ?? 0,
+    masteredIds: masteredIdsFromRecords(records),
+    records,
+  }
 }
 
 export function migrateLocalStorage(raw: string | null): PersistV2 | null {

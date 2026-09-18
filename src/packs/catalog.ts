@@ -1,4 +1,4 @@
-import { PACK_META, WORDS } from '../data/pack'
+import { PACK_INDEX, PACK_META, SAMPLE_WORDS, WORDS } from '../data/pack'
 import type { PackMeta } from './types'
 
 export const TEM8_PACK: PackMeta = {
@@ -8,12 +8,12 @@ export const TEM8_PACK: PackMeta = {
   dialect: 'en-GB-source / en-US-speech',
   level: 'TEM8',
   categories: ['academic', 'tem8'],
-  version: '1.0.0',
+  version: '1.1.0',
   source: PACK_META.sourceRepo,
   sourceRevision: PACK_META.sourceFile,
   license: PACK_META.dataLicense,
   attribution: PACK_META.attribution,
-  sha256: 'see docs/DATA_SOURCE.md',
+  sha256: 'see public/packs/tem8.json',
   entryCount: PACK_META.lemmaCount,
   readyCount: PACK_META.learnableCount,
 }
@@ -35,7 +35,7 @@ export const SAMPLE_PACK: PackMeta = {
   readyCount: 40,
 }
 
-export const SAMPLE_WORD_IDS = WORDS.slice(0, 40).map((word) => word.id)
+export const SAMPLE_WORD_IDS = SAMPLE_WORDS.map((word) => word.id)
 
 export const PACKS: PackMeta[] = [TEM8_PACK, SAMPLE_PACK]
 
@@ -44,9 +44,11 @@ export const CORE_FREQUENCY_STATUS =
 
 export function wordIdsForPack(packId: string): string[] {
   if (packId === SAMPLE_PACK.packId) return SAMPLE_WORD_IDS
-  return WORDS.map((word) => word.id)
+  if (WORDS.length === PACK_META.learnableCount) return WORDS.map((word) => word.id)
+  return PACK_INDEX.map((entry) => entry.id)
 }
 
 export function chapterWordIds(chapter: number): string[] {
-  return WORDS.filter((word) => word.chapter === chapter).map((word) => word.id)
+  const source = WORDS.length === PACK_META.learnableCount ? WORDS : PACK_INDEX
+  return source.filter((word) => word.chapter === chapter).map((word) => word.id)
 }
